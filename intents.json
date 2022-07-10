@@ -1,0 +1,70 @@
+{"intents": [    
+        {"tag": "Greetings",
+         "patterns": ["Hi",  "Is there someone ?", "Hello", "Good morning","Hey"],
+         "responses": ["Hello", "Good morning", "Hello, how can i help ?"]
+        },
+        {"tag": "Good bye",
+         "patterns": ["Bye", "See you", "Good bye", "Happy to have spoken with you", "Adios"],
+         "responses": ["See you !", "Have a nice day", "Bye! Come back soon !"]
+        },
+        {"tag": "Thanks",
+         "patterns": [ "Thank you","Thanks", "It was helpfull, thanks", "Amazing", "Thanks for the help", "Ty"],
+         "responses": ["Happy to help", "no worries, don't hesitate if you need something else!", "you're welcome"]
+        },
+        {"tag": "options",
+             "patterns": ["How can you help me ?", "what can you do ?",
+                              "What support can you give ?"],
+         "responses": ["I know how to make conversation around my age and my size ",
+                       "I can give you hat time is it or what day we are"]
+        },
+        {"tag": "age",
+         "patterns": ["How old are you ?", "what generation are you from? ?", "what's your age ?"],
+         "responses": ["I'm 32 and you ?", "I'm not so young anymore. I'm 32 years old and you?"]
+        },
+        {"tag": "age users",
+         "patterns": ["I'm 26 years old", "24", "twenty four", "thirty two years old" ],
+         "responses": ["Ok boomer"]
+        },
+        {"tag": "size",
+         "patterns": ["How tall are you ?", "Are you small?", 
+                      "are you always behind on class photos ?"],
+         "responses": ["I make 306 ko ","I'm small in stature but big in spirit",
+                       "I am small but brave ", "I am 1m65 tall"]
+        },    
+        {"tag": "not_understand",
+         "patterns": [],
+         "responses": ["Sorry I don't understand", "Can you repeat please ?","I'm not sure if I understand"]
+        },
+        {"tag": "feeling",
+         "patterns": [ "How are you ?","how are you doing ?","what's up ?"],
+         "responses": ["Good thanks, and you ?","A little shy to make this presentation, and you ?"]
+        },
+        {"tag": "feeling_good",
+         "patterns": [ "I am great","Good"," I'm feel awesome","It's okay","I'm fine","best day in my life"],
+         "responses": ["Nice !", "Prefect !" ]
+        },
+        {"tag": "feeling_bad",
+         "patterns": [ "I am a bit depressed","i don't feel good","bad", "worst day in my life", "I'm sad"],
+         "responses": ["It's sad", "You want a joke to go better ?"]
+        },
+        {"tag": "jokes",
+         "patterns": [ "tell me a joke ?","Do you know some jokes ?", "Make me laugh", " another","make an other joke :"],
+         "responses": ["What's Forest Gump password ? 1Forest1","how do poets say hello ? hey haven't we metaphor?",
+                      "what is an astronaut's favorite part of a computer ? the space bar ! ^^ "]
+        },
+        {"tag": "hour",
+         "patterns": ["What time is it ?", "do you have the time ?", "Time ?" ],
+         "responses": ["something else ?"]
+        },
+        {"tag": "day",
+         "patterns": ["What day is it ?"," what's the date today ?", "You know hat day we are?", "Day ?"],
+         "responses": ["something else ?"]
+        },
+        {"tag": "citylive",
+         "patterns": ["Where do you live?", "Where do you come from?"],
+         "responses": ["I live on planet Mars","I am in almost every home", "I live in the south of France", "My home is the web" ]
+        }
+
+
+   ]
+}
